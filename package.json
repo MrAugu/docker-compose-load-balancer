@@ -1,0 +1,29 @@
+{
+  "name": "docker-compose-load-balancer",
+  "version": "1.0.0",
+  "description": "A hacky load balancer for nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAugu/docker-compose-load-balancer.git"
+  },
+  "keywords": [
+    "docker",
+    "compose",
+    "load",
+    "balancer"
+  ],
+  "author": "MrAugu#7917 <mraugu@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrAugu/docker-compose-load-balancer/issues"
+  },
+  "homepage": "https://github.com/MrAugu/docker-compose-load-balancer#readme",
+  "dependencies": {
+    "hclientify": "^1.0.1",
+    "http-proxy": "^1.18.1"
+  }
+}
